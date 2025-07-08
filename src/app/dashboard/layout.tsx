@@ -6,7 +6,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <Sidebar />
-      {children}
+      <main className="sm:ml-14 p-4">{children}</main>
     </>
   );
 }
